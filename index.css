@@ -1,0 +1,121 @@
+#landingpagepic{
+
+	width: 40%;
+	height: 100%;
+
+	
+}
+
+#image1{
+
+	border-radius: 60%;
+	margin-top: .5vh;
+	padding: 3rem;
+}
+
+div h1 {
+	text-align: center;
+	margin-top: 2rem;
+	color: white;
+	font-family: monospace;
+	 animation-duration: 3s;
+  animation-name: slidein;
+  text-shadow: 1px 1px 1px black,
+               2px 2px 1px black;
+
+}
+div h2 {
+	text-align: center;
+	margin-top: 2rem;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	 animation-duration: 3s;
+  animation-name: slidein;
+  text-shadow: 1px 1px 1px black,
+               2px 2px 1px black;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.bg-image {
+	background-image: url('https://cdn.wallpapersafari.com/92/8/3voE1A.jpg');
+	background-size: auto;
+	background-position: center;
+
+	
+
+
+
+}
+
+#aboutme {
+	color: floralwhite;
+	padding-bottom: 10rem;
+
+
+}
+
+div h3 {
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+	font-size: 3rem;
+	font-family: cursive;
+	 text-shadow: 1px 1px 1px red,
+               2px 2px 1px red;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#para {
+  background: rgba(255,84,104,0.3);
+  border: 2px solid rgb(255,84,104);
+  padding: 50rem;
+  margin: 50px;
+  text-align: justify;
+  width: 60%;
+  line-height: 2.5rem;
+  text-shadow: 1px 1px 1px black,
+               2px 2px 1px black;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+#para2 {
+  background: rgba(255,84,104,0.3);
+  border: 2px solid rgb(255,84,104);
+  padding: 50rem;
+  margin: 50px;
+  text-align: justify;
+  width: 60%;
+  line-height: 2.5rem;
+  text-shadow: 1px 1px 1px black,
+               2px 2px 1px black;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+#carouselExampleIndicators {
+	padding-top: 4rem;
+	width: 50%;
+	padding-bottom: 3rem;
+
+}
+
+footer{
+	background-color: whitesmoke;
+}
